@@ -29,27 +29,29 @@ header h1 {
   margin-bottom: 20px;
 }
 
-.btn {
-  display: block;
+.card {
+  background: #fff;
   margin: 12px 0;
   padding: 15px;
-  background: #d81b60;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
 
-.btn:hover {
-  background: #ad1457;
-  transform: translateY(-3px);
+.card a {
+  text-decoration: none;
+  color: #d81b60;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 .highlight {
   background: #fbc02d;
-  color: #000;
 }
 
 footer {
