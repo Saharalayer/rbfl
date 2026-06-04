@@ -1,0 +1,52 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background: linear-gradient(135deg, #fce4ec, #fff);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: 'Al Jazeera', sans-serif;
+  color: #d81b60;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #555;
+  font-size: 1.2em;
+}
+
+.btn {
+  display: block;
+  margin: 10px 0;
+  padding: 15px;
+  background: #d81b60;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ad1457;
+  transform: scale(1.05);
+}
+
+.highlight {
+  background: #fbc02d;
+  color: #000;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
